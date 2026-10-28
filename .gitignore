@@ -1,0 +1,76 @@
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.class
+
+# Debug symbols and profiling output
+*.pdb
+*.ilk
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# Build directories
+/build/
+/cmake-build-*/
+[Cc]MakeFiles/
+[Cc]MakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+!**/Makefile
+
+# CMake-generated files
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.*
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.ipch/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# CLion / JetBrains
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Xcode
+DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*~
+
